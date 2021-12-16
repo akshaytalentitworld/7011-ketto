@@ -6,3 +6,5 @@ resource "aws_instance" "demo-instance" {
 
   tags = local.common_tags
 }
+
+
