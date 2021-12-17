@@ -11,5 +11,3 @@ module "s3" {
   versioning  = false
   Environemnt = "staging"
 }
-
-
