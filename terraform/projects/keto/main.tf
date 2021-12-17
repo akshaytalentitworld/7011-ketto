@@ -9,5 +9,5 @@ module "s3" {
 
   bucket_name = "prod-keto-aws-s3-bucket"
   versioning  = false
-  Environemnt = "Prod"
+  Environemnt = "staging"
 }
