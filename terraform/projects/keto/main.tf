@@ -1,7 +1,7 @@
 module "ec2" {
   source = "../../modules/ec2"
 
-  key_name = "prod-keto-ec2-keypair-testing"
+  key_name = "prod-keto-ec2-keypair-test"
 }
 
 module "s3" {
